@@ -1,3 +1,7 @@
+It's A Bribe is a site similar to OpenSecrets where you can look up politicians and see where their funding is coming from.
+
+To run the app follow these instructions:
+
 # Start the server
 1. Navigate to the backend directory in terminal
 2. Run the command: npm i
