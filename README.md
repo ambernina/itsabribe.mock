@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-# start the server
-1. In the backend directory, run npm install.
-2. Make .env file using .env.example
-3. Run the command below:
-    node server
-
-# run frontend
-1. yarn install
-2. yarn start
-
-# mongodb setting
-In backend/.env
-=======
 It's A Bribe is a site similar to OpenSecrets where you can look up politicians and see where their funding is coming from.
 
 To run the app follow these instructions:
@@ -39,4 +25,3 @@ To run the app follow these instructions:
     MAILCHIMP_URL=https://arricor.us8.list-manage.com/subscribe/post?u=919a3df63a5b0cdb576e19738&amp;id=467384764a
 
 5. Run the command: npm start
->>>>>>> 48a829773c4d6dd27e31864dec983fa97e1676a5
