@@ -1,0 +1,45 @@
+.auto-complete-container {
+  width: 27%;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 1000;
+  border-radius: 0 0 2px 2px;
+}
+
+.auto-complete-container ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.auto-complete-container ul::before {
+  content: "";
+}
+
+.auto-complete-container li {
+  margin: 5px -5px;
+  padding: 5px 2px;
+  cursor: pointer;
+}
+
+.auto-complete-container li:hover {
+  background-color: rgba(128, 128, 128, 0.20);
+}
+
+@media (max-width: 575px) {
+	.auto-complete-container {
+		width: 77%;
+	}
+}
+@media (min-width: 576px) {
+	.auto-complete-container {
+		width: 42%;
+	}
+}
+@media (min-width: 992px) {
+	.auto-complete-container {
+		width: 27%;
+	}
+}
